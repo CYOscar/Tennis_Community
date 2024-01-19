@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+    <link rel="stylesheet" href="./styles.css">
+ </head>
+<body>
+    <header>
+     <div class="title">
+        <img src="./logo2.png">
+        <h1>Community Tennis Club</h1>
+     </div>
+
+     <nav>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#us">About us</a></li>
+            <li><a href="#team">Join Us</a></li>
+            <div class="dropdown">
+                <span>More</span>
+                <div class="dropdown-content">
+                <p><a href="#">News & Events</a></p>
+                <p><a href="#">Courts</a></p>
+                <p><a href="#connect">Contact</a></p>
+                </div>
+              </div>
+           </ul>
+     </nav>
+    </header>
+
+    <div class="home">
+      <selection id="main">
+      <div class="main">
+         <h1>Welcome to Community Tennis Club</h1>
+      </div>
+      </selection>
+    </div>
+    <selection id="us">
+    <div class="about">
+      <h1>About Community Tennis Club</h1>
+      <p>Welcome to our vibrant adult tennis community!</p>
+      <div class="picture">
+      <img src="./tennisgroup.jpg">
+      <p><strong>Membership: </strong>Membership is open to anyone!
+      </div>
+      </p>
+      <p>The primary purposes for a Community Tennis Club:</p>
+      <ul>
+         <li><strong>Community Engagement:</strong> Opportunities to connect and build friendships with like-minded individuals who share a passion for tennis.</li>
+         <li><strong>Fitness Benefits:</strong> Tennis is a fantastic workout, promoting cardiovascular health, endurance, agility, and strength.</li>
+         <li><strong>Variety of Programs:</strong> Diverse offerings such as clinics, leagues, tournaments, and social events cater to various playing styles and preferences.</li>
+         <li><strong>Skill Enhancement:</strong> Access to professional coaching and tailored programs designed to improve your tennis skills regardless of your current level.</li>
+      </ul>
+    </div>
+    </selection>
+    <selection id="team">
+    <div class="join">
+      <div class="description">
+      <h1>Join Us!</h1>
+      <h1>We start every Monday, Wednesday and Friday at 9am-11am!</h1>
+      </div>
+    </div>
+   </selection>
+   <selection id="connect">
+   <div class="contact">
+      <h1>Let's Connect!</h1>
+      <form action="/action_page.php">
+         <label for="fname">First Name</label>
+         <input type="text" id="fname" name="firstname" placeholder="Your name..">
+     
+         <label for="lname">Last Name</label>
+         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+     
+         <label for="subject">Subject</label>
+         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+     
+         <input type="submit" value="Submit">
+       </form>
+   </div>
+   </selection>
+
+
+</body>
+</html>
